@@ -85,15 +85,8 @@ Created additional features to support fraud analysis.
 - Balance consistency indicators
 
 ### Balance Consistency Logic
-```python
-df['errorBalanceOrig'] = (
-    df['newbalanceOrig'] + df['amount'] - df['oldbalanceOrg']
-)
+<img width="1778" height="380" alt="image" src="https://github.com/user-attachments/assets/11a663e0-2da7-4905-b74e-20cac7a948db" />
 
-df['errorBalanceDest'] = (
-    df['oldbalanceDest'] + df['amount'] - df['newbalanceDest']
-)
-```
 
 These engineered features helped identify suspicious balance discrepancies and transaction anomalies.
 
